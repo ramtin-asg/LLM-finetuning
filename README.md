@@ -71,7 +71,7 @@ make sure to install these libraries
 This is the list of Libraries that should be installed before running the code.
 
 pip install transformers datasets torch torchvision torchaudio rouge-score sacrebleu
-
+(copy and paste in terminal)
 The data set will be load from datasets library.
 
 https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset
