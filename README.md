@@ -66,6 +66,15 @@ For the next step, I fine-tuned BART using **Reinforcement Learning (RL)** to en
 - **Readability issues**: The generated summaries may lack coherence and smoothness.
 
 The **SeqCo** model in the reference paper provides a more reliable approach by addressing these issues with **contrastive learning**, making summarization more effective and readable.
+### Before running
+make sure to install these libraries
+This is the list of Libraries that should be installed before running the code.
+
+pip install transformers datasets torch torchvision torchaudio rouge-score sacrebleu
+
+The data set will be load from datasets library.
+
+https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset
 
 ## References
 
